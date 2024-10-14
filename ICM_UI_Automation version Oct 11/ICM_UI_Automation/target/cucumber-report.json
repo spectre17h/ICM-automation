@@ -1,0 +1,119 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-11T06:33:20.378Z",
+        "line": 77,
+        "name": "Validate Login to Dashboard for ICM",
+        "description": "",
+        "id": "validate-text-on-a-icm-login-web-page;validate-login-to-dashboard-for-icm;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2541821000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I am on the login page",
+            "match": {
+              "location": "StepDefinition.LoginPageStepDef.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2112317000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User enters \"1000101543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000101543\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.LoginPageStepDef.user_enters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5066039000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Click on login button",
+            "match": {
+              "location": "StepDefinition.LoginPageStepDef.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9463863000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User land on OTP screen and enters \"1543\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1543\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.LoginPageStepDef.user_land_on_OTP_screen_and_enters(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11074000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Verify user is on homepage with the \"Incred Money - Alternate Investment Platform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Incred Money - Alternate Investment Platform\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.LoginPageStepDef.verify_user_is_on_homepage_with_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allValidationsss"
+          },
+          {
+            "name": "@akshay"
+          }
+        ]
+      }
+    ],
+    "name": "Validate text on a ICM Login web page",
+    "description": "",
+    "id": "validate-text-on-a-icm-login-web-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@allValidationsss",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
